@@ -6,3 +6,9 @@ This project uses the Credit Card Fraud dataset, available on Kaggle, created by
 
 #### Why is Dataset?
 This dataset was chosen because it presents a clear imbalance between fraudulent and legitimate transactions, which is ideal for testing classification techniques and metrics beyond accuracy.
+
+#### Dataset overview:
+- Features: distance_from_home, distance_from_last_transaction, ratio_to_median_purchase_price, used_chip, used_pin_number, online_order.
+  
+- Target: fraud.
+
