@@ -27,9 +27,11 @@ This dataset was selected because it exhibits a significant class imbalance betw
 ## 04 Class Distribution
  <img width="429" height="312" alt="imagen" src="https://github.com/user-attachments/assets/22fe75a1-e635-448e-9387-4b6837271dd5" />
  
-## 05 Machine Learning Aproach & Metrics
+## 05 Machine Learning Aproach, Metrics & Scaler:
 * **Task Type:** Supervised binary classification on imbalance data.
 * **Evaluation Metrics:** Due to the severe class imbalance, evaluation prioritizes **Recall**, **Precision**, **F1-Score**, and **PR-AUC (Precision-Recall Curve)** rather than raw accuracy.
+*  **Selected Scaler:** **`QuantileTransformer(output_distribution='normal')`**
+
 
 
 
